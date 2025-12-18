@@ -2,14 +2,14 @@
 
 > **Current Status:** 🚧 Code refactoring and documentation in progress. Full Python implementation/simulation scripts will be released shortly.
 
-## 📖 Introduction
+##  Introduction
 This project proposes a novel computational framework to explain **attention shifts** during sequential decision-making tasks. 
 
 In traditional neuroscience, attention shifts are often viewed as random exploration. However, based on the **Active Inference** framework, I hypothesize that these shifts are regulatory mechanisms to maximize **information gain** and counteract **memory leakage** in the Prefrontal Cortex (PFC).
 
 This model was originally proposed and developed during the **Computational Neuroscience Summer School (2025)** under the guidance of Prof. Ruben Moreno-Bote.
 
-## 🧠 Theoretical Framework
+##  Theoretical Framework
 
 The model integrates two powerful frameworks:
 1.  **Drift Diffusion Model (DDM):** To model the decision accumulation process.
@@ -29,7 +29,7 @@ $$H_{X}(t) = \frac{1}{2}\log(2\pi e \sigma_{X}^{2}(t))$$
 
 The attention shift is triggered when the uncertainty exceeds the information gain threshold ($H_{th}$).
 
-## 💡 Key Features & "Cost of Attention"
+##  Key Features & "Cost of Attention"
 A critical challenge in the initial model was that it predicted asymmetric psychometric curves in the late delay period, whereas experimental data showed **symmetry**. 
 
 To resolve this, I introduced the **"Cost of Attention Shift"** variable. 
@@ -45,5 +45,5 @@ To resolve this, I introduced the **"Cost of Attention Shift"** variable.
     - [x] Preliminary simulation (Summer School)
     - [ ] Code cleaning & public release (In Progress)
 
-## 📄 Reference
+##  Reference
 * Proposal Presentation: *Modeling attention shift in complex decision-making task* [Yu, 2025]
