@@ -36,7 +36,7 @@ To resolve this, I introduced the **"Cost of Attention Shift"** variable.
 * The brain does not switch freely; it pays a cognitive/metabolic cost.
 * By incorporating this cost into the objective function, the model successfully reproduces the symmetric behavioral features observed in monkey electrophysiology data.
 
-## 🛠️ Tech Stack & Roadmap
+##  Tech Stack & Roadmap
 * **Languages:** Python (NumPy, SciPy), MATLAB
 * **Modeling:** Active Inference, DDM, Bayesian Update
 * **Status:**
