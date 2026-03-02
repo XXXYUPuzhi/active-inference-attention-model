@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+README.html
+workflow_plan.md
+.claude/
